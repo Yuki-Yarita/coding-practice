@@ -63,7 +63,7 @@ button {
   width: 100%;
   background: center / cover no-repeat url("../img/keyvisual/keyvisual.jpg");
   text-align: center;
-  margin-top: 78px;
+  padding-top: 78px;
 }
 
 .keyvisual-title {
@@ -148,7 +148,7 @@ button {
 
 .plan {
   background-color: #d0dfea;
-  padding: 30px 0 50px 0;
+  padding: 30px 0;
 }
 
 .plan-inner {
@@ -198,24 +198,25 @@ button {
 }
 
 .icon-item {
-  background-color: #e3f2fd;
+  background: #e3f2fd;
   padding: 200px 0;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
-.icon-links > i {
-  width: 185px;
-  padding: 25px 0;
+.icon-links {
   color: #8c8c8c;
-  overflow: hidden;
+  width: 185px;
   font-size: 40px;
+  overflow: hidden;
+  padding: 25px 0;
+  text-align: center;
   transition: .5s;
 }
 
-.icon-links > i:hover {
-  color: #fff;
+.icon-links:hover {
+  background: #fff;
+  transition: 0.5s;
 }
 
 footer {
